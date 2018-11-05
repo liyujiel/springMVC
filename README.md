@@ -96,7 +96,7 @@ As:
     esac
     exit 0
 
-After that for Setup the command in terminal, we need add ./tomcat's path in ~/.bash_profile
+After that for add tomcat application command in terminal, we need add tomcat's path in ~/.bash_profile
 by:
 
     $vi ~/.bash_profile
@@ -121,6 +121,6 @@ If it is successes, then you can see:
 
 ## Ready to run the demo
 
-By new project from existing source, and open *pom.xml* file. Import it, build with spring and run it with Tomcat.
+By new project from existing source, and open *pom.xml* file. Import it, build with spring and run it with `Tomcat`.
 
 Finally you can see the "Hello from letter A" from the localhost port, which port number is decide by your setting from Tomcat! :)
